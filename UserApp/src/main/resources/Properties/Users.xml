@@ -1,0 +1,76 @@
+<Objects>
+    <Object>
+        <Users>
+            <Admins>
+                <User>
+                    <dn>cn=uaadmin,ou=sa,o=data</dn>
+                    <name>uaadmin</name>
+                    <fullName>UserApp Administrator</fullName>
+                    <type>User</type>
+                    <pwd>novell</pwd>
+                    <group>dummy</group>
+                    <email>dummy</email>
+                    <userType>UserApp Admin</userType>
+                </User>
+                <User>
+                    <dn>cn=vinod,ou=users,o=data</dn>
+                    <name>vinod</name>
+                    <fullName>Vinod Kumar Gopal</fullName>
+                    <type>User</type>
+                    <pwd>novell</pwd>
+                    <group>core</group>
+                    <email>vinod.gopal@mf.com</email>
+                    <userType>Prov Admin</userType>
+                </User>
+            </Admins>
+            <Requesters>
+                <User>
+                    <dn>cn=ramesh,ou=users,o=data</dn>
+                    <name>ramesh</name>
+                    <fullName>Ramesh Joseph</fullName>
+                    <type>User</type>
+                    <pwd>novell</pwd>
+                    <group>core</group>
+                    <email>ramesh.joseph@mf.com</email>
+                    <userType>Team Manager</userType>
+                </User>
+            </Requesters>
+            <Approvers>
+                <!--<User>
+                    <dn>cn=krishnan,ou=users,o=data</dn>
+                    <name>krishnan</name>
+                    <fullName>Krishnan Rajagopalan</fullName>
+                    <type>User</type>
+                    <pwd>novell</pwd>
+                    <group>managers</group>
+                    <email>krishnan.rajagopalan@mf.com</email>
+                    <userType>Approver</userType>
+                </User>-->
+                <User>
+                    <dn>cn=virendra,ou=users,o=data</dn>
+                    <name>virendra</name>
+                    <fullName>Virendra Parmar</fullName>
+                    <type>User</type>
+                    <pwd>novell</pwd>
+                    <group>managers</group>
+                    <email>virendra.parmar@mf.com</email>
+                    <userType>Approver</userType>
+                </User>
+            </Approvers>
+            <Recipients>
+                <User>
+                    <dn>cn=sushant,ou=users,o=data</dn>
+                    <name>sushant</name>
+                    <fullName>Sushant Dasgupta</fullName>
+                    <email>sushant.dasgupta@mf.com</email>
+                    <type>User</type>
+                    <pwd>novell</pwd>
+                    <group>Apps</group>
+                    <title>Mr</title>
+                    <telephone>1111111111</telephone>
+                    <userType>normal</userType>
+                </User>
+            </Recipients>
+        </Users>
+    </Object>
+</Objects>

@@ -1,0 +1,30 @@
+{
+  "container": "ou=users,o=data",
+  "password": "novell",
+  "attributes": [
+    {
+      "key": "FirstName",
+      "values": "Virendra",
+      "dataType": "String",
+      "action": "add"
+    },
+    {
+      "key": "LastName",
+      "values": "Parmar",
+      "dataType": "String",
+      "action": "add"
+    },
+    {
+      "key": "Email",
+      "dataType": "String",
+      "values": "virendra.parmar@mf.com",
+      "action": "add"
+    },
+    {
+      "key": "cn",
+      "dataType": "String",
+      "values": "virendra",
+      "action": "add"
+    }
+  ]
+}

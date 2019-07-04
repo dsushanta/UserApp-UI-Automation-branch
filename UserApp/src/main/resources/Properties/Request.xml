@@ -1,0 +1,9 @@
+<Environment>
+    <Permissions>
+        <Resource>
+            <Permission>
+                <name>MacBook</name>
+            </Permission>
+        </Resource>
+    </Permissions>
+</Environment>

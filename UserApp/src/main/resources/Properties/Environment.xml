@@ -1,0 +1,24 @@
+<Environment>
+    <Setup>
+        <Server>
+            <IP>164.99.91.154</IP>
+            <!--<IP>164.99.179.47</IP>-->
+            <!--<IP>sushant.labs.blr.novell.com</IP>-->
+            <HTTP>8180</HTTP>
+            <HTTPS>8543</HTTPS>
+        </Server>
+        <Nodes>
+            <Node>
+                <IP>164.99.178.234</IP>
+                <HTTP>4444</HTTP>
+                <!--<IP>dsukanya:219b24c9-f6a0-4f66-b7e4-f304fdef8c33@ondemand.saucelabs.com</IP>
+                <HTTP>80</HTTP>-->
+            </Node>
+        </Nodes>
+    </Setup>
+    <Selenium>
+        <Timeout>
+            <Implicit>20</Implicit>
+        </Timeout>
+    </Selenium>
+</Environment>

@@ -1,0 +1,20 @@
+<Environment>
+    <Setup>
+        <Server>
+            <IP>164.99.178.51</IP>
+            <HTTP>8180</HTTP>
+            <HTTPS>8543</HTTPS>
+        </Server>
+        <Nodes>
+            <Node>
+                <IP>164.99.178.12</IP>
+                <HTTP>5555</HTTP>
+            </Node>
+        </Nodes>
+    </Setup>
+    <Selenium>
+        <Timeout>
+            <Implicit>20</Implicit>
+        </Timeout>
+    </Selenium>
+</Environment>

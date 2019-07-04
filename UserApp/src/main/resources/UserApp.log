@@ -1,0 +1,6 @@
+2017-04-11 14:31:00 INFO  testBase:29 - Logging from method A
+2017-04-11 14:31:29 INFO  testBase:39 - Logging from method B
+2017-04-11 14:32:44 INFO  testBase:29 - Logging from method A
+2017-04-11 14:32:58 INFO  testBase:39 - Logging from method B
+2017-04-11 14:36:35 INFO  testBase:29 - Logging from method A
+2017-04-11 14:36:50 INFO  testBase:39 - Logging from method B

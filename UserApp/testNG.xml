@@ -1,0 +1,48 @@
+<!--
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User App UI Automation Learning" >
+    &lt;!&ndash;<listeners>
+        <listener class-name="com.microfocus.idm.UA.utils.TestListener"/>
+    </listeners>&ndash;&gt;
+    <test name ="Login Process" preserve-order="true">
+        <classes>
+            &lt;!&ndash;<class name="com.microfocus.idm.UA.rough.rough" ></class>&ndash;&gt;
+            <class name="com.microfocus.idm.UA.useCases.validation.firstSetOfUseCases" ></class>
+        </classes>
+    </test>
+</suite>-->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User App UI Automation Learning" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.microfocus.idm.UA.utils.TestListener"/>
+    </listeners>
+    <!--<test name ="Login Process on Firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        &lt;!&ndash;<parameter name="server" value="164.99.163.107"/>&ndash;&gt;
+        <classes>
+            <class name="com.microfocus.idm.UA.useCases.validation.firstSetOfUseCases" ></class>
+        </classes>
+    </test>-->
+    <test name ="Login Process on Chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <!--<parameter name="server" value="164.99.163.107"/>-->
+        <classes>
+            <class name="com.microfocus.idm.UA.useCases.validation.firstSetOfUseCases" ></class>
+        </classes>
+    </test>
+</suite>
+
+<!--
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User App UI Automation Learning">
+<listeners>
+    <listener class-name="com.microfocus.idm.UA.utils.TestListener"/>
+</listeners>
+<test name ="Login Process on Firefox">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+        <class name="com.microfocus.idm.UA.useCases.validation.firstSetOfUseCases" ></class>
+    </classes>
+</test>
+</suite>-->

@@ -1,0 +1,41 @@
+<rra>
+    <rolesTab></rolesTab>
+    <resourcesTab>
+        <create>
+            <resources>
+                <resource>
+                    <type>Without Entitlement</type>
+                    <id>MacBook</id>
+                    <name>MacBook</name>
+                    <description>MacBook</description>
+                    <approval>
+                        <process>Serial</process>
+                        <approvers>
+                            <approver>
+                                <type>User</type>
+                                <value>Virendra Parmar</value>
+                            </approver>
+                        </approvers>
+                    </approval>
+                </resource>
+            </resources>
+        </create>
+        <search>
+            <resources>
+                <resource>
+                    <id></id>
+                    <name></name>
+                </resource>
+            </resources>
+        </search>
+        <modify></modify>
+        <delete>
+            <resources>
+                <resource>
+                    <id></id>
+                    <name></name>
+                </resource>
+            </resources>
+        </delete>
+    </resourcesTab>
+</rra>

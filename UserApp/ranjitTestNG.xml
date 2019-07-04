@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User App UI Automation Learning">
+    <test name ="Login Process on Chrome" preserve-order="true">
+        <!--<parameter name="browser" value="chrome"/>-->
+        <classes>
+            <class name="com.microfocus.idm.UA.rough.rough_ranjit" ></class>
+        </classes>
+    </test>
+</suite>
